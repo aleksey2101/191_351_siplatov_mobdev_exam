@@ -64,7 +64,8 @@ public class CustomListAdapter  extends BaseAdapter {
         holder.titleView.setText(myNew.getTitle());
         holder.dateView.setText("Date: " + myNew.getDate());
 
-        new ThreadImgMyNews().execute(myNew.getImgLink());
+//        new ThreadImgMyNews().execute(myNew.getImgLink());
+        holder.imgView.setImageResource(R.mipmap.diagram_icon);
 
         return convertView;
     }

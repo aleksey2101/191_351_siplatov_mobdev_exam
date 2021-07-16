@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setCurrentItem(mSectionsPagerAdapter.getFragment2());
     }
 
+    public void setCurrentItemChooseFragment1() {
+        mViewPager.setCurrentItem(mSectionsPagerAdapter.getFragment1());
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -148,6 +152,10 @@ public class MainActivity extends AppCompatActivity {
 
         int getFragment2() {
             return 1;
+        }
+
+        int getFragment1() {
+            return 0;
         }
     }
 }

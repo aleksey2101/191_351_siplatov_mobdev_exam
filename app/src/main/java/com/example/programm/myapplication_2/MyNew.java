@@ -3,7 +3,6 @@ package com.example.programm.myapplication_2;
 public class MyNew {
     private String title;
 
-    // Image name (Without extension)
     private String imgLink;
     private String date;
 
@@ -40,6 +39,6 @@ public class MyNew {
 
     @Override
     public String toString()  {
-        return this.title +" (Population: "+ this.date +")";
+        return this.title +" (Date: "+ this.date +")";
     }
 }

@@ -7,20 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Fragment2">
 
-    <EditText
-        android:id="@+id/editTextSearhLab5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="IT"
-        app:layout_constraintEnd_toStartOf="@+id/searchMyNewButton"
-        app:layout_constraintStart_toEndOf="@+id/textViewLab5"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textViewLab5"
         android:layout_width="wrap_content"
@@ -35,23 +21,35 @@
         android:id="@+id/ListViewLab5"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="2dp"
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextSearhLab5" />
+        app:layout_constraintTop_toBottomOf="@+id/closeBtn" />
 
     <ImageButton
-        android:id="@+id/searchMyNewButton"
+        android:id="@+id/closeBtn"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@android:drawable/ic_menu_send"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Главные новости дня:"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/closeBtn"
         app:layout_constraintTop_toTopOf="parent" />
 
 

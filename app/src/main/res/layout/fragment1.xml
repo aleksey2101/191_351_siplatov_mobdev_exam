@@ -73,7 +73,7 @@
             android:id="@+id/passEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Key"
+            android:hint="Enter Pass"
             android:password="true" />
     </android.support.design.widget.TextInputLayout>
 
