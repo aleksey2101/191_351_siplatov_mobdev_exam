@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Приложение</string>
+    <string name="title">Введите условие: </string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <!-- Example settings for Notifications -->
+
+    <string name="button_title">Найти</string>
+    <string name="hint_editor_textview">Введите условие</string>
+    <string name="title_google" translatable="false">Google</string>
+    <string name="title_yandex" translatable="false">Yandex</string>
+    <string name="playpausetext">Играть/Пауза</string>
+    <string name="pause">Пауза</string>
+    <string name="stop">Стоп</string>
+    <string name="auth_like_text">Авторизовано как: </string>
+    <string name="app_name_en" translatable="false">Application</string>
+</resources>
