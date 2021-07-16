@@ -5,10 +5,10 @@
 
 Использовалась среда Android Studio, язык Java.
 
-![Иллюстрация к проекту](https://github.com/aleksey2101/191_351_siplatov_mobdev_exam/tree/main/app/1.jpg)
+![Иллюстрация к проекту](https://github.com/aleksey2101/191_351_siplatov_mobdev_exam/raw/main/app/1.jpg)
 
 
-![Иллюстрация к проекту](https://github.com/aleksey2101/191_351_siplatov_mobdev_exam/tree/main/app/1.jpg)
+![Иллюстрация к проекту](https://github.com/aleksey2101/191_351_siplatov_mobdev_exam/raw/main/app/1.jpg)
 
 aleksey2101.s@yandex.ru https://new.mospolytech.ru/
 
