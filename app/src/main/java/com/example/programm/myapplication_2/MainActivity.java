@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 public class MainActivity extends AppCompatActivity {
 
     final static String TAG="myLogs";
-    private PagerAgentViewModel pagerAgentViewModel;
+//    private PagerAgentViewModel pagerAgentViewModel;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
-        pagerAgentViewModel = ViewModelProviders.of(this).get(PagerAgentViewModel.class);
-        pagerAgentViewModel.init();
+//        pagerAgentViewModel = ViewModelProviders.of(this).get(PagerAgentViewModel.class);
+//        pagerAgentViewModel.init();
     }
 
     @Override
@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void setCurrentItemChooseFragment2() {
+        mViewPager.setCurrentItem(mSectionsPagerAdapter.getFragment2());
     }
 
     /**
@@ -140,6 +144,10 @@ public class MainActivity extends AppCompatActivity {
         public int getCount() {
             // Show 5 total pages.
             return 2;
+        }
+
+        int getFragment2() {
+            return 1;
         }
     }
 }
